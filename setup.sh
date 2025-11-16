@@ -25,7 +25,8 @@ lxd init --auto
 
 # Install Python and dependencies
 echo "📦 Installing Python 3 and pip..."
-apt-get install -y python3 python3-pip python3-venv -qq
+apt-get install -y unzip python3 python3-pip python3-venv -qq
+unzip template.zip && static.zip 
 
 # Create virtual environment
 echo "🐍 Creating Python virtual environment..."
